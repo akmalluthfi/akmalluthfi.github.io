@@ -351,7 +351,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: '/projects/fh4_recommendation_system.png',
+      image: '/projects/recommendation-system.png',
       video: '',
     },
     {
