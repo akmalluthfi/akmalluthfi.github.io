@@ -100,7 +100,7 @@ export const DATA = {
       start: 'Sep 2025',
       end: 'Present',
       description:
-        'Assisted in developing the data management backend integrated with React Router using Drizzle ORM and PostgreSQL to support structured data delivery. Conducted research on Large Language Models (LLMs) using Ollama and LangChain to explore potential AI implementations for meeting summarization.',
+        'Assisted in developing the data management backend integrated with React Router using Drizzle ORM and PostgreSQL to support structured data delivery. Conducted research on Large Language Models (LLMs) using Ollama and "LangChain" to explore potential AI implementations for meeting summarization.',
     },
     {
       company: 'Dashboard PENS - Lecturer Project',
@@ -254,6 +254,60 @@ export const DATA = {
     //   video: 'https://cdn.llm.report/openai-demo.mp4',
     // },
     {
+      title: 'Tomato Disease Detection',
+      href: 'https://github.com/Biji-Ketapang/tomato-disease-detection-api',
+      dates: 'November 2025',
+      active: true,
+      description:
+        'An image classification model for detecting 10 tomato diseases using a combination of custom CNN architectures and transfer learning. Achieved up to 95% accuracy and deployed as a prediction service using FastAPI, fully containerized with Docker for reproducible and scalable deployment.',
+      technologies: [
+        'TensorFlow/Keras',
+        'MobileNetV2',
+        'EfficientNetB0',
+        'FastAPI',
+        'Docker',
+      ],
+      links: [
+        {
+          type: 'Docker Source',
+          href: 'https://hub.docker.com/repository/docker/akmalluthfi/tomato-disease-detection/general',
+          icon: <Icons.docker className="size-3" />,
+        },
+        {
+          type: 'Source',
+          href: 'https://github.com/Biji-Ketapang/tomato-disease-detection-api',
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: '/projects/detomato.jpg',
+      video: '',
+    },
+    {
+      title: 'EEPIS Instagram Caption Generator (RAG)',
+      href: 'https://github.com/akmalluthfi/eepis-instacaption-rag',
+      dates: 'November 2025',
+      active: true,
+      description:
+        'A Retrieval-Augmented Generation (RAG) system designed to generate highly relevant and context-aware Instagram captions based on EEPIS captions instagram. It leverages LangChain and ChromaDB for high-precision document retrieval and reduces hallucinations by grounding generation on structured institutional data.',
+      technologies: [
+        'Langchain',
+        'ChromaDB',
+        'Groq API',
+        'Ollama',
+        'Nomic-Embed-Text',
+        'FastAPI',
+      ],
+      links: [
+        {
+          type: 'Source',
+          href: 'https://github.com/akmalluthfi/eepis-instacaption-rag',
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: '/projects/analystmu.png',
+      video: '',
+    },
+    {
       title: 'Dashboard PENS',
       href: '/',
       dates: 'Mar 2025 - Present',
@@ -302,9 +356,19 @@ export const DATA = {
       ],
       links: [
         {
-          type: 'Website',
-          href: 'https://rego-omah.up.railway.app/',
-          icon: <Icons.globe className="size-3" />,
+          type: 'Docker Source',
+          href: 'https://hub.docker.com/repository/docker/akmalluthfi/house-price-prediction',
+          icon: <Icons.docker className="size-3" />,
+        },
+        // {
+        //   type: 'Website',
+        //   href: 'https://rego-omah.up.railway.app/',
+        //   icon: <Icons.globe className="size-3" />,
+        // },
+        {
+          type: 'Modeling Source (new!!)',
+          href: 'https://github.com/akmalluthfi/house-price-prediction',
+          icon: <Icons.github className="size-3" />,
         },
         {
           type: 'Modeling Source',
