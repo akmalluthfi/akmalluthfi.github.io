@@ -11,7 +11,7 @@ export const DATA = {
     'Web Developer turned Machine Learning Engineer. I love working on projects and helping others.',
   summary:
     'I started my journey as a web developer before becoming deeply interested in machine learning and data science. Currently, I am still in college, focusing on various machine learning techniques, big data processing, and data visualization. My background in web development helps me in ML Ops and model deployment, allowing me to seamlessly integrate machine learning models into production-ready systems.',
-  avatarUrl: '/me.jpg',
+  avatarUrl: '/me.png',
   skills: [
     // Machine Learning
     'Python',
